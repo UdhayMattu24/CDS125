@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(181, 191, 198);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("plastic_waste.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-top: 10px;
+}
+.header-left {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.team-link {
+    text-decoration: none;
+    color: #32cd32;
+    font-weight: bold;
+}
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    font-size: 24px; 
+}
+.nav-menu li a#qq {
+    color: #32cd32;
+    font-weight: bold;
+}
+
+.nav-menu li a:hover {
+    color: lightgray;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 1200px;
+    padding: 20px;
+    gap: 40px;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+}
+
+#aw{
+    color: #60c760;
+}
+.image-container img {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    border: 2px solid white;
+}
+.text-container {
+    flex: 2;
+    text-align: left;
+    padding-left: 50px;
+}
+.quote {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px; 
+    text-align: right;
+}
+.text-container h2 {
+    text-align: left;
+    color: #60c760;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.booking-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.booking-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+}
+.booking-form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color:#32cd32;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 150px;
+
+}
+.booking-form button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: auto;
+}
+

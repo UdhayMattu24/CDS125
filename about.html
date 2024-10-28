@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="b.css">
+    <link rel="stylesheet" href="app.css">
+   
+</head>
+
+<style>
+    .about{
+       height: 550px !important;
+        overflow: hidden;
+        display: flex;
+    }
+    .para{
+        padding-left: 5rem;
+    }
+
+    @media (max-width : 992px) {
+        .about-img{
+            display: flex;
+            flex-direction: column;
+            border-radius: 50% !important;
+        }
+
+        .about-para{
+            width: 100% !important;
+        }
+
+        .about-name{
+            font-size: 13px;
+        }
+
+
+    }
+
+    @media (max-width : 571px) {
+        .about-img{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            border-radius: 0% !important;
+            justify-content: center;
+        }
+
+       .about-para{
+      
+        display: none;
+        font-size: 14px;
+       }
+
+        .about-name{
+            font-size: 13px;
+        }
+
+
+    }
+    @media (max-width : 446px) {
+        .about-img{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            border-radius: 0% !important;
+            justify-content: center;
+        }
+
+        .about{
+       height: 550px !important;
+        overflow: hidden;
+        display: flex;
+        justify-content:center ;
+    }
+
+       .about-para{
+      
+        display: none !important;
+       
+       }
+
+        .about-name{
+            font-size: 8px;
+        }
+
+
+    }
+
+    img{
+        transition: outline 0.8s ease-in-out;
+
+    }
+
+    img:hover{
+        outline:  solid 20px white;
+        transition: outline 0.8s ease-in-out;
+
+    }
+
+</style>
+
+
+<body>
+    <section class="container-fluid bg-black bg-gradient min-vh-100">
+        <div class="row ">
+            <div class="col-5 d-flex">
+           <a class="d-flex text-decoration-none" href="index.html"> <button class="btn text-white"> <i class="bi bi-arrow-left-circle-fill"> </i> <span class="ms-3">Back</span></button></a>
+
+            </div>
+            <div class="col-7 d-flex">
+                <h1 class="text-center text-white mt-5 mb-5"><b>Who Are We?</b></h1>
+
+            </div>
+            
+        </div>
+
+
+    <section class="container-fluid about mb-5">
+        <div class="row about-img  align-items-center">
+            <div class="col-xl-5 col-sm-3 col-lg-3 col-md-3 col-md-4">
+                <img src="udhay.jpg" class="w-75 shadow rounded-circle mb-md-4 ms-5 about-img" style="filter: grayscale(100%);" alt="" srcset="">
+            </div>
+            <div class="col-xl-7 col-sm-9 col-md-9 col-lg-9  text-sm-center text-lg-start para">
+                <h3 class="text-white mt-sm-3 text-uppercase">Udhay Mattu <small class="text-white-50 fs-4 "><small class="text-uppercase about-name "> Research & Web Developer</small></small> </h3>
+               <p class="text-white-50">Registration ID  <b>12419897</b> </p> 
+               <p class="text-white-50">BTech CSE</p>
+                <p class="text-white w-auto text-white-50 lh-5 about-para text-uppercas about-para d-lg-block d-md-none d-sm-none d-xs-none"><small>
+                    My name is Udhay, and I am introducing myself as a highly motivated and skilled student. Currently, I am actively engaged in front-end development.                 </small></p>
+		<a href="https://www.instagram.com/udhay.mattu?igsh=MXU4aThueTlma3A2aQ==">
+                <button class="btn btn-dark"><span class="me-2">Reach Me</span> <i class="bi bi-arrow-right-circle-fill"></i></button>
+                </a>	
+            </div>
+        </div>
+    </section>
+
+     <section class="container-fluid about">
+        <div class="row about-img flex-lg-row-reverse flex-md-column align-items-center">
+            <div class="col-xl-5 col-sm-3 col-lg-3 col-md-3 col-md-4">
+                <img src="XJ.jpg" class="w-75 shadow rounded-circle mb-md-4 ms-5 about-img" style="filter: grayscale(100%);" alt="" srcset="">
+            </div>
+            <div class="col-xl-7 col-sm-9 col-md-9 col-lg-9  text-sm-center text-lg-start para">
+                <h3 class="text-white mt-sm-3 text-uppercase">Amaan <small class="text-white-50 fs-4 "><small class="text-uppercase about-name "> Research and Web Development</small></small> </h3>
+               <p class="text-white-50">Registration ID <b>12419185</b> </p> 
+               <p class="text-white-50">BTech CSE</p>
+                <p class="text-white w-auto text-white-50 lh-5 about-para text-uppercas about-para d-lg-block d-md-none d-sm-none d-xs-none"><small>
+                    My name is Amaan and I am introducing myself as a highly motivated and skilled student. Currently, I am actively engaged in computer secience & practical lessons.
+                </small></p>
+                <a target="https://www.instagram.com/amaaaan.01?igsh=OHZmMWNmZ3hxZWpx">
+                <button class="btn btn-dark"><span class="me-2">Reach Me</span> <i class="bi bi-arrow-right-circle-fill"></i></button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid about">
+        <div class="row about-img  align-items-center">
+            <div class="col-xl-5 col-sm-3 col-lg-3 col-md-3 col-md-4">
+                <img src="pra.jpg" class="w-75 shadow rounded-circle mb-md-4 ms-5 about-img" style="filter: grayscale(100%);" alt="" srcset="">
+            </div>
+            <div class="col-xl-7 col-sm-9 col-md-9 col-lg-9  text-sm-center text-lg-start para">
+                <h3 class="text-white mt-sm-3 text-uppercase">Prashant <small class="text-white-50 fs-4 "><small class="text-uppercase about-name "> Research and Web Development</small></small> </h3>
+               <p class="text-white-50">Registration ID<b>12419563</b> </p> 
+               <p class="text-white-50">CSE AI ML</p>
+                <p class="text-white w-auto text-white-50 lh-5 about-para text-uppercas about-para d-lg-block d-md-none d-sm-none d-xs-none"><small>
+                    My name is Prashant, and I am introducing myself as a highly motivated and skilled student. Currently, I am actively engaged in computer secience & practical lessons.
+                </small></p>
+                <a target=<a href="tel:9436796420">
+                <button class="btn btn-dark"><span class="me-2">Reach Me</span> <i class="bi bi-arrow-right-circle-fill"></i></button>
+                </a>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="container-fluid about">
+        <div class="row about-img  align-items-center">
+            <div class="col-xl-5 col-sm-3 col-lg-3 col-md-3 col-md-4">
+                <img src="inkyin.jpg" class="w-75 shadow rounded-circle mb-md-4 ms-5 about-img" style="filter: grayscale(100%);" alt="" srcset="">
+            </div>
+            <div class="col-xl-7 col-sm-9 col-md-9 col-lg-9  text-sm-center text-lg-start para">
+                <h3 class="text-white mt-sm-3 text-uppercase">Inkyin Hmwe <small class="text-white-50 fs-4 "><small class="text-uppercase about-name "> Research and Web Development</small></small> </h3>
+               <p class="text-white-50">Registration ID<b>12402821</b> </p> 
+               <p class="text-white-50">BTech CSE</p>
+                <p class="text-white w-auto text-white-50 lh-5 about-para text-uppercas about-para d-lg-block d-md-none d-sm-none d-xs-none"><small>
+                    My name is Inkyin Hmwe, and I am introducing myself as a highly motivated and skilled student. Currently, I am actively engaged in computer secience & practical lessons.
+                </small></p>
+                <a target=<a href="https://www.linkedin.com/in/inkyin-hmwe-4b06b2222/">
+                <button class="btn btn-dark"><span class="me-2">Reach Me</span> <i class="bi bi-arrow-right-circle-fill"></i></button>
+                </a>
+            </div>
+        </div>
+    </section>
+    </section>
+    
+
+</body>
+</html>

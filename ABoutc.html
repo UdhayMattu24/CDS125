@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Team 404</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            color: #575757;
+            background-color: #000000;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #000000;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            color: #4CAF50;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            align-items: center;
+            padding: 0 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            text-align: center;
+            flex-grow: 1;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            padding: 10px 0;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            list-style: none;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        .back-button {
+            background-color: #4CAF50; /* Green for contrast */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+        .back-button:hover {
+            background-color: #66bb6a; /* Lighter green on hover */
+        }
+        .content {
+            max-width: 800px;
+            margin: 160px auto 40px; /* Increased top margin to avoid content cutting */
+            padding: 20px;
+            background-color: #000000;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 1.8em;
+            color: #4CAF50;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #4CAF50;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        p {
+            font-size: 1.1em;
+            margin: 15px 0;
+            line-height: 1.8;
+        }
+        .testimonial {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f0f4f8;
+            border-left: 4px solid #4CAF50;
+            border-radius: 8px;
+            font-style: italic;
+            color: #555;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial strong {
+            display: block;
+            margin-top: 10px;
+            font-size: 1em;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <a href="index.html" class="back-button">Back to Homepage</a>
+            <h1>About Us</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#our_mission">OUR MISSION</a></li>
+                <li><a href="#OUR_VISION">OUR VISION</a></li>
+                <li><a href="#what_r_v_dng">METHODOLOGY</a></li>
+                <li><a href="#story">OUR STORY</a></li>
+                <li><a href="#value">OUR VALUES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <section id="our_mission">
+            <h2>Our Mission</h2>
+            <p>
+                We revolutionize plastic recycling by providing accessible <br>
+                pickup services for plastic scrap, empowering communities to <br>
+                contribute to a cleaner planet. Through innovative processing, <br>
+                we transform collected plastic into sustainable products such <br>
+                as public charging points, combustible pallets, and more, <br>
+                fostering an eco-conscious circular economy that benefits <br>
+                both people and the environment.
+            </p>
+        </section>
+
+        <section id="OUR_VISION">
+            <h2>Our Vision</h2>
+            <p>
+                To lead the way in sustainable recycling, <br>
+                transforming plastic waste into valuable products that <br>
+                serve communities and the environment alike. <br>
+                We envision a world where waste is repurposed into solutions <br>
+                that power everyday life, reduce environmental impact, <br>
+                and inspire a global commitment to responsible resource use <br>
+                and sustainable innovation.
+            </p>
+        </section>
+
+        <section id="what_r_v_dng">
+            <h2>What We Are Doing</h2>
+            <p>
+                We collect plastic scrap directly from local communities <br>
+                and recycle it into practical, sustainable products. <br>
+                Our key initiatives include creating public charging stations <br>
+                with advertising spaces and developing a range of recycled plastic <br>
+                products available for purchase on our website. By working closely <br>
+                with the community, we turn plastic waste into valuable resources <br>
+                that support local needs, reduce environmental impact, <br>
+                and strengthen community connections.
+            </p>
+        </section>
+
+        <section id="story">
+            <h2>Our Story</h2>
+            <p>
+                Founded in 2024, Team 404 started as a small venture with big dreams. 
+                With a team of dedicated students who strive to bring the best solutions 
+                for our future. Our journey has been one of growth, learning, and continuous improvement.
+            </p>
+        </section>
+
+        <section id="value">
+            <h2>Our Values</h2>
+            <p>
+                <strong>Sustainability:</strong> We are committed to reducing plastic waste and promoting sustainable practices.<br>
+                <strong>Community Engagement:</strong> Our roots are in the community. By involving local residents in recycling efforts.<br>
+                <strong>Innovation:</strong> We continuously seek creative ways to repurpose plastic waste into practical, impactful products, bringing modern solutions like charging stations and recyclable goods to everyday life.<br>
+                <strong>Accessibility:</strong> We strive to make recycling easy and beneficial for all.<br>
+                <strong>Responsibility:</strong> We take pride in our role as environmental stewards, committed to creating a positive impact.
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <br>
+        <a href="index.html" class="back-button">Back to Homepage</a>
+        <br>
+        <p> © Team 404. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

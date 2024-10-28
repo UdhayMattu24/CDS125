@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="n.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <li><a href="about.html" class="team-link">Team 404</a>
+            </li>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ABoutc.html">About</a></li>
+                <li><a href="Buy.html">Buy</a></li>
+                <li><a href="Sale.html">Sale</a></li>
+                <li><a id="qq" href="info.html">Awareness</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="what-we-do">
+            <div class="content-container">
+                <div class="image-container">
+                    <img src="rec.jpg" alt="Image representing our work" />
+                </div>
+                <div class="text-container">
+                    <div class="quote">
+                        “When you put the whole picture together, recycling is the right thing to do.”<br><br>
+                        <strong>– Pam Shoemaker, Author</strong>
+                    </div>
+                    <h2>What We Do</h2>
+                    <p> Users can sell their plastic scrap through booking a pickup appointment. <br>
+                        We process the collected plastic into various other products, such as <br> 
+                        public charging points with advertisement, combustible pallets, and more.
+                    </p>
+                    <p id="aw"><strong>BOOK A PICKUP DATE</strong></p>
+
+                    <form id="sss" action="server.js" method="POST" class="booking-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="date">Pickup Date:</label>
+                        <input type="date" id="date" name="date" required>
+                        <br>
+                        <button type="submit">Submit</button>
+                    </form>
+
+                    <p>Free Pickup Service . 24X7 Support </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer><p>&copy; Team 404 </p></footer>
+</body>
+</html>
